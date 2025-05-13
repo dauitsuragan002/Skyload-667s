@@ -18,12 +18,11 @@ This project is an open-source version of the Skyload browser extension. With th
 4. Click "Load unpacked" and select this folder (`path/to/Skyload`).
 
 ## Enabling Kazakh Localization
-Currently, the Skyload extension may not officially support the Kazakh interface. However, you can add Kazakh localization manually:
+Currently, the Skyload extension may not officially support the Kazakh interface. However, you can use Kazakh localization as a workaround:
 
-1. Create the file `_locales/kk/messages.json` or copy an existing language file (such as `_locales/en/messages.json`) into a new `kk` folder.
-2. Translate all "message" values in that file into Kazakh.
-3. Open the extension menu and go to the "Interface language" section.
-4. Select "Қазақша" or "Kazakh" from the list of languages (if it does not appear, try reloading the extension).
+1. Copy the Kazakh translations from `_locales/kk/messages.json` and replace the contents of `_locales/en/messages.json` (or any other language's messages.json) with them.
+2. Open the extension menu and go to the "Interface language" section.
+3. Select "English" (or the language you replaced) from the list of languages (the interface will now appear in Kazakh).
 
 > **Note:** Official Kazakh localization support may be added to Skyload soon. Stay tuned for updates!
 
@@ -68,12 +67,11 @@ Currently, the Skyload extension may not officially support the Kazakh interface
 4. "Load unpacked" (Архивсіз жүктеу) батырмасын басып, осы папканы таңдаңыз (`path/to/Skyload`).
 
 ## Қазақша локализацияны қосу
-Қазіргі уақытта Skyload кеңейтімінде қазақша интерфейс ресми түрде толық қолдау таппауы мүмкін. Дегенмен, өзіңіз қазақша локализацияны қоса аласыз:
+Қазіргі уақытта Skyload кеңейтімінде қазақша интерфейс ресми түрде толық қолдау таппауы мүмкін. Бірақ қазақша локализацияны қолданудың бір жолы бар:
 
-1. `_locales/kk/messages.json` файлын жасаңыз немесе басқа тілдегі (`_locales/en/messages.json` сияқты) файлды көшіріп, жаңа `kk` папкасына қойыңыз.
-2. Сол файлдағы барлық "message" мәндерін қазақшаға аударыңыз.
-3. Кеңейтім мәзірінен "Язык интерфейса" немесе "Interface language" бөлімін ашыңыз.
-4. Тілдер тізімінен "Қазақша" немесе "Қазақ тілі" таңдаңыз (егер тізімде шықпаса, кеңейтімді қайта жүктеп көріңіз).
+1. `_locales/kk/messages.json` файлының ішіндегі қазақша мәтіндерді көшіріп, оларды `_locales/en/messages.json` (немесе басқа тілдің messages.json) файлына қойыңыз.
+2. Кеңейтім мәзірінен "Язык интерфейса" немесе "Interface language" бөлімін ашыңыз.
+3. Тілдер тізімінен "English" (немесе қай тілді алмастырсаңыз, соны) таңдаңыз — интерфейс қазақша болады.
 
 > **Ескерту:** Қазақша локализация жақын арада ресми түрде Skyload кеңейтімінде қолдау табуы мүмкін. Жаңартуларды бақылап отырыңыз!
 
